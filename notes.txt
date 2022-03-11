@@ -1,0 +1,19 @@
+PHP SQLite Connect to Database - SELECT INSERT UPDATE Queries
+https://www.youtube.com/watch?v=5FrAUXFhy9I
+php.ini:
+sqlite3.extension_dir = "C:\Developement\xampp\php\ext"
+extension=sqlite3
+extension=php_pdo_sqlite ou extension=pdo_sqlite
+
+télecharger un exemple du fichier .db 
+https://www.sqlitetutorial.net/sqlite-sample-database/
+ou
+touch test.db
+
+vsc
+1.extension : SQLite
+2.supprimer une table
+view-> command palette-> sqlite quick query-> choisir une badd:
+drop table name
+
+
